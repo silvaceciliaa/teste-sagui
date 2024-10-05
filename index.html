@@ -20,7 +20,7 @@
         <input type="number" id="irpf" step="0.01" placeholder="Digite a porcentagem do IRPF">
         
         <label for="pis">Porcentagem do PIS (%):</label>
-        <input type="number" id="pis" step="0.01" placeholder="Digite a porcentagem do PIS">
+        <input type="number" id="" step="0.01" placeholder="Digite a porcentagem do PIS">
         
         <label for="cofins">Porcentagem do COFINS (%):</label>
         <input type="number" id="cofins" step="0.01" placeholder="Digite a porcentagem do COFINS">
@@ -33,7 +33,9 @@
         
         <button onclick="gerarNota()">Gerar Nota Fiscal</button>
 
-        <div id="notaFiscal" class="resultados"></div>
+        <div class="notaFiscalContainer">
+            <div id="notaFiscal" class="resultados"></div>
+        </div>
     </div>
 
     <script src="/assets/scripts/nota-fiscal.js"></script>

@@ -70,16 +70,18 @@ button:hover {
     background-color: #0056b3;
 }
 
-#notaFiscal {
+.notaFiscalContainer{
     margin-top: 20px;
-    padding: 20px;
-    background-color: #f1f1f1;
-    border-radius: 10px;
-    border: 1px solid #ddd;
+    display: flex;
+    justify-content: center;
+}
+
+#notaFiscal {
+    align-items: flex-start;
 }
 
 #notaFiscal h2 {
-    color: #007BFF;
+    color: #333;
     font-size: 20px;
     margin-bottom: 10px;
 }
